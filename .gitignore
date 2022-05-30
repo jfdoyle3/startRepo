@@ -401,7 +401,6 @@ ipython_config.py
 
 # pyenv
 .python-version
-config.py
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
@@ -424,6 +423,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+config.py
 
 # Spyder project settings
 .spyderproject
