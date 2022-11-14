@@ -1,5 +1,6 @@
-# Maven default
-# -------------------
+#############################
+## Maven Default
+#############################
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -12,8 +13,9 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 
-# Java Default
-# ----------------------
+#############################
+## Java Default
+#############################
 # Compiled class file
 *.class
 
@@ -38,13 +40,9 @@ buildNumber.properties
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
-
-# VS Code NodeJS 
-# ------------
-.vscode
-node_modules
-
-# Enviornment Files
+#############################
+## Enviornment Files
+#############################
 .env
 .ENV
 .env.test
@@ -54,6 +52,21 @@ node_modules
 .env.test.local
 .env.production.local
 config.js
+
+# Python 
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+config.py
+
+#############################
+## Nodejs / VSCode
+##############################
+.vscode
+node_modules
 
 # Logs
 logs
@@ -158,7 +171,9 @@ dist
 # TernJS port file
 .tern-port
 
-# Docker
+##############################
+## Docker
+##############################
 Dockerfile
 docker-compose.yml
 /.metadata/
@@ -272,14 +287,18 @@ fabric.properties
 /android/app/profile
 /android/app/release
 
-### NetBeans ###
+#############################
+## NetBeans
+#############################
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 
-### STS ###
+#############################
+## STS
+#############################
 .apt_generated
 .classpath
 .factorypath
@@ -291,7 +310,9 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
-# Flutter/Dart/Pub related
+##############################
+## Flutter / Dart
+##############################
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
@@ -414,16 +435,6 @@ celerybeat-schedule
 
 # SageMath parsed files
 *.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-config.py
 
 # Spyder project settings
 .spyderproject
