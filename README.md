@@ -1,2 +1,8 @@
-# startRepo
-Repo that has my current .gitignore 2/12/2022
+# Starter Repository Template
+
+This Repository has a customized gitignore file
+ignores:
+VS CODE, Visual Studio, Eclipse IDE, Intellij IDEA, Python,
+Gradle, Maven.
+
+- added Visual Studio in gitignore 1/31/2023
